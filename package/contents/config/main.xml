@@ -4,10 +4,10 @@
 
 	<group name="General">
 		<entry name="showBatteryIcon" type="bool">
-			<default>true</default>
+			<default>false</default>
 		</entry>
 		<entry name="showPercentage" type="bool">
-			<default>true</default>
+			<default>false</default>
 		</entry>
 		<entry name="showTimeLeft" type="bool">
 			<default>true</default>

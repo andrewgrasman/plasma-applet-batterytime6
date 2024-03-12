@@ -1,9 +1,9 @@
-import QtQuick 2.1
-import QtQuick.Layouts 1.3
-import org.kde.plasma.plasmoid 2.0
-import org.kde.plasma.core 2.0 as PlasmaCore
-import org.kde.plasma.components 2.0 as PlasmaComponent
-import org.kde.kcoreaddons 1.0 as KCoreAddons
+import QtQuick
+import QtQuick.Layouts
+import org.kde.plasma.plasmoid
+import org.kde.plasma.core as PlasmaCore
+import org.kde.plasma.components as PlasmaComponent
+import org.kde.kcoreaddons as KCoreAddons
 
 Item {
 	id: widget

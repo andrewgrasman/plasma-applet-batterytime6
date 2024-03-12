@@ -1,3 +1,9 @@
+## v6 - March XX 2023
+
+* Forked from https://github.com/Zren/plasma-applet-batterytime.git
+* Port to Plasma 6
+* Set default battery hidden, default applet has more/better features
+
 ## v4 - August 23 2017
 
 * Support displaying time left as "1:09" and default to that.

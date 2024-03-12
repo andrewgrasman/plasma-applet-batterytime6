@@ -1,6 +1,6 @@
 # Battery Time
 
-Description
+Show how long it will take to empty or chagre your battery, best used in conjunction with the stock battery applet
 
 ## Screenshots
 
