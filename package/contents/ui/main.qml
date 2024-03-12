@@ -140,7 +140,7 @@ Item {
 		Layout.preferredHeight: gridLayout.implicitHeight
 
 		// property int textHeight: Math.max(6, Math.min(panelItem.height, 16 * units.devicePixelRatio))
-		property int textHeight: 12 * units.devicePixelRatio
+		property int textHeight: 12
 		// onTextHeightChanged: console.log('textHeight', textHeight)
 
 		GridLayout {
@@ -151,7 +151,7 @@ Item {
 			// and below. Adding extra space will make the space between the percentage and time left
 			// labels look bigger than the space between the icon and the percentage.
 			// So for vertical layouts, we'll add the spacing to just the icon.
-			property int spacing: 4 * units.devicePixelRatio
+			property int spacing: 4
 			columnSpacing: spacing
 			rowSpacing: 0
 
@@ -163,13 +163,13 @@ Item {
 				visible: plasmoid.configuration.showBatteryIcon
 				anchors.left: gridLayout.useVerticalLayout ? parent.left : undefined
 				anchors.right: gridLayout.useVerticalLayout ? parent.right : undefined
-				width: 22 * units.devicePixelRatio
-				height: 12 * units.devicePixelRatio + (gridLayout.useVerticalLayout ? gridLayout.spacing : 0)
+				width: 22
+				height: 12 + (gridLayout.useVerticalLayout ? gridLayout.spacing : 0)
 
 				BreezeBatteryIcon {
 					id: batteryIcon
-					width: Math.min(parent.width, 22 * units.devicePixelRatio)
-					height: Math.min(parent.height, 12 * units.devicePixelRatio)
+					width: Math.min(parent.width, 22)
+					height: Math.min(parent.height, 12)
 					anchors.centerIn: parent
 					charging: currentBatteryState == "Charging"
 					charge: currentBatteryPercent
