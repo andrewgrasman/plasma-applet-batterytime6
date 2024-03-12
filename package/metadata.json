@@ -1,0 +1,21 @@
+{
+	"KPlugin": {
+		"Authors": [
+			{
+				"Email": "zrenfire@gmail.com & andrew.grasman@gmail.com",
+				"Name": "Chris Holland & Andrew Grasman"
+			}
+		],
+		"Category": "System Information",
+		"Description": "Minutes left",
+		"Icon": "battery",
+		"Id": "com.github.andrewgrasman.batterytime6",
+		"Name": "Battery Time",
+		"KPackageStructure": [
+			"Plasma/Applet"
+		],
+		"Version": "6",
+		"Website": "https://github.com/andrewgrasman/plasma-applet-batterytime6"
+	},
+	"X-Plasma-MainScript": "ui/main.qml"
+}
